@@ -33,6 +33,10 @@ html {
   height: 70px;
 }
 
+.le {
+  font-size: 17px;
+}
+
 .contacts {
   display: flex;
   flex-direction: row;
@@ -42,6 +46,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 5px;
 }
 
 .flex p {
