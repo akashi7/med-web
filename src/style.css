@@ -175,13 +175,21 @@ html {
 .vision h3 {
   font-size: 2rem;
   color: green;
-
 }
 
 .vision p {
   margin-top: 10px;
   font-size: 1.2rem;
+}
 
+.value h3 {
+  font-size: 2rem;
+  color: green;
+}
+
+.value p {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }
 
 .gallery {
@@ -429,5 +437,11 @@ html {
 
   .production {
     margin-bottom: 30px;
+  }
+
+  .vision h3,
+  .mission h3,
+  .value h3 {
+    font-size: 1.5rem;
   }
 }
