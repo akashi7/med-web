@@ -433,10 +433,24 @@ html {
 
   .followup {
     margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
+  }
+
+  .cc {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
   }
 
   .production {
     margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
+  }
+
+  .content {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px;
   }
 
   .vision h3,
