@@ -400,4 +400,34 @@ html {
   .gallery h2 {
     display: none;
   }
+
+  .cc h3 {
+    font-size: 1.5rem;
+  }
+
+  .ss {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 1.5rem;
+    color: green;
+    padding-left: 9px;
+    margin-bottom: -10px;
+  }
+
+  .content {
+    height: auto;
+  }
+
+  .production h3,
+  .followup h3 {
+    font-size: 1.5rem;
+  }
+
+  .followup {
+    margin-bottom: 30px;
+  }
+
+  .production {
+    margin-bottom: 30px;
+  }
 }
