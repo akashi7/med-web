@@ -79,7 +79,9 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 8px;
-  background-color: whitesmoke;
+  background-color: rgb(5, 30, 54);
+  height: 80px;
+
 }
 
 .logo-co {
@@ -96,7 +98,7 @@ html {
 .logo-co p {
   font-size: 18px;
   padding-left: 7px;
-  color: green;
+  color: white;
 }
 
 .nav-links {
@@ -108,7 +110,7 @@ html {
 .nav-links a {
   font-size: 20px;
   padding: 2px 8px;
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
@@ -320,7 +322,7 @@ html {
 
 .footer {
   height: fit-content;
-  background-color: rgb(9, 54, 9);
+  background-color: rgb(5, 21, 35);
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -340,12 +342,103 @@ html {
   color: white;
 }
 
+.contactus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(5, 30, 54);
+  background-size: cover;
+  height: 500px;
+}
+
+.photo-p {
+  width: 40%;
+}
+
+.p-c-l {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 5px;
+  color: white;
+}
+
+button {
+  background: rgb(9, 54, 9);
+  color: white;
+  border: 1px solid transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  width: 65%;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.input {
+  border: 1px solid rgb(209, 197, 197);
+  padding: 0.5rem 1.5rem;
+  width: 65%;
+  transition: all 0.5s;
+  margin: 5px;
+  background-color: 'white';
+  outline-color: rgb(9, 54, 9);
+  border-radius: 3px;
+}
+
+.form {
+  color: white;
+  margin-left: 20px;
+}
+
+.form h3 {
+  padding-left: 5px;
+}
+
 @media only screen and (max-width: 480px) {
   .header1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: fit-content;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  .profile {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 200px; */
+    align-items: center;
+  }
+
+  .input {
+    width: 90%;
+  }
+
+  .contactus {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
   }
 
   .flex {
